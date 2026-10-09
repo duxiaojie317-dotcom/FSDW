@@ -1,0 +1,21 @@
+{
+  "dataset": "mnist",
+  "arch": "resnet18",
+  "seed": 42,
+  "eval_seed": 12345,
+  "lr": 0.1,
+  "epochs": 30,
+  "warmup_epochs": 2,
+  "batch_size": 128,
+  "eval_batch_size": 100,
+  "lambda_poison": 5.0,
+  "embed_strength": 0.1,
+  "poison_rate": 0.1,
+  "target_class": 1,
+  "num_workers": 4,
+  "data_root": "./data",
+  "output_dir": "./outputs/mnist",
+  "jpeg_quality": 50,
+  "blur_kernel": 3,
+  "noise_std": 0.05
+}
