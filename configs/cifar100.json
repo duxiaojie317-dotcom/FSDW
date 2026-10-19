@@ -1,0 +1,13 @@
+{
+  "dataset": "cifar100",
+  "arch": "resnet18",
+  "eval_seed": 12345,
+  "eval_batch_size": 100,
+  "embed_strength": 0.1,
+  "target_class": 1,
+  "num_workers": 0,
+  "data_root": "./data",
+  "jpeg_quality": 50,
+  "blur_kernel": 3,
+  "noise_std": 0.05
+}
